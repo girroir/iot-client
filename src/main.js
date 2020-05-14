@@ -188,7 +188,7 @@ const store = new Vuex.Store({
   }
 });
 
-Vue.use(VueNativeSock, 'ws:54.245.6.156:9001', {store: store, format: 'json'})
+//Vue.use(VueNativeSock, 'ws:54.245.6.156:9001', {store: store, format: 'json'})
 
 new Vue({
   el: '#app',
